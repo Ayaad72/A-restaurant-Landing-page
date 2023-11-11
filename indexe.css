@@ -1,0 +1,526 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#navbarscroll ul{
+    margin-left: 20px;
+}
+
+#navbarscroll ul,li{
+    margin-right: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold
+}
+
+#logo{
+    padding-right: 150px;
+}
+
+#left img{
+    width: 550px;
+    height: 450px;
+    margin-top: 100px;
+}
+
+#right{
+    padding-top: 140px;
+    padding-left: 110px;
+}
+
+#right p{
+    font-size: 18px;
+    color: white;
+}
+
+#right p span{
+    color: #fe8f00;
+    font-size: 45px;
+}
+
+#right p button{
+    padding: 2px 11px 2px 11px;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-color: #fe8f00;
+    font-family: UI-SANS-SERIF;
+    font-weight: bold
+}
+#aboutus{
+    background-color:#18171e;
+}
+#aboutleft img{
+    width: 480px;
+    height: 450px;
+    margin-top: 60px; 
+    margin-left:60px;
+    margin-bottom: 20px;
+}
+#aboutright{
+    padding-top: 140px;
+    padding-left: 90px;
+}
+#aboutright h1{
+    font-size: 50px;
+    color: white;
+}
+#aboutus p{
+    font-size:20px;
+     color: white;
+}
+#quality{
+    background-image: url(./Shape.png);
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: cover;
+     background-color:#18171e
+}
+#partone{
+    padding-top: 200px;
+}
+#partone h1{
+    font-size: 50px; color: white;padding-left: 30px;
+}
+#partone p{
+    font-size: 25px; color: white;padding-left: 30px;
+}
+ #parttwo{
+    height: 600px;
+    float:right;
+}
+ #partthree img{
+    height: 600px;
+    width: 500px; 
+    float: left;
+    padding-top: 800px;
+}
+ #abcd{
+    height: 600px;
+    width: 500px;
+    margin-top: 500px;
+    float: left;
+}
+ #partfour{
+    width: 800px; 
+    margin-top: 40px;
+     float: right; 
+     height: 1000px;
+}
+ #gallery{
+    background-color: #18171e;
+}
+ #header h1{
+    font-size: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+ #mainimage{
+    padding-bottom: 100px;
+}
+ #imagea img{
+    width: 350px;
+    padding-left: 30px;
+    height: 400px;
+}
+ #imageb img{
+    width: 350px; 
+    height: 400px;
+}
+#imagec img{
+    width: 350px; 
+    height: 400px;
+}
+#imaged img{
+    width: 350px; 
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 400px;
+}
+#imagee img{
+    width: 350px;
+    padding-top: 20px;
+    height: 400px;
+}
+#imagef img{
+    width: 350px;
+    padding-top: 20px;
+    height: 400px;
+}
+#container{
+    background-image: url(./layer.png);
+    background-repeat: no-repeat;
+    background-size: cover;height: 100vh;
+}
+#text{
+    border:8px solid  #fe8f00 ; 
+    margin-top: 100px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+#text p{
+    font-size: 22px;
+}
+#menus{
+    background-color: #18171e;
+}
+#head h1{
+    font-size: 50px; 
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+#minus{
+    padding-bottom: 100px;
+}
+#imga img{
+    width: 350px;
+}
+#imgb img{
+width: 350px;  
+}
+#imgc img{
+width: 350px;
+}
+#textone p{
+    font-size: 16px;
+}
+#textone span{
+    color: #fe8f00;
+    font-size: 25px;
+}
+#containerone{
+background-image: url(./Rectangle.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 70vh;
+}
+#picture img{
+    float:left;
+    margin-top: -30px;
+    width: 500px;
+}
+#paragraph p{
+    font-size: 25px;
+    margin-top: 80px;
+}
+#paragraph span{
+    color:white;font-size: 50px;
+}
+#blogs{
+    background-image: url(./Rectangle2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+#footerlogo img{
+    padding-top: 80px;
+    padding-left: 450px;
+    width: 800px;
+    height: 150px;
+}
+#footer ul{
+    padding-left: 350px;
+    padding-top: 15px;
+}
+#footer ul li{
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+#footerpic ul{
+    padding-left: 450px;
+    padding-top: 15px;
+}
+#footerpic ul li{
+    display: inline-block;
+}
+@media screen and (width:768px){
+    #logo{
+        padding-right: 20px;
+    }
+    #logo img{
+        width: 75px;
+        height: 52px;
+        margin-left: 60px;
+        
+    }
+    #navbar ul{
+        display: contents;
+
+    }
+    #navbar ul li{
+        display: inline-block;
+        margin-right: 6px;
+        font-size: 13px;
+        padding-right: 2px;
+    }
+    #left img{
+        width: 349px;
+        height: 339px;
+    }
+    #right p span{
+        font-size: 31px;
+    }
+    #right p{
+        font-size: 13px;
+    }
+    #home{
+        height: 589px;
+    }
+    #aboutleft img{
+        width: 324px;
+        height: 381px;
+        margin-left: 60px;
+    }
+    #aboutright h1{
+        font-size: 38px;
+    }
+    #aboutright p{
+        font-size: 13px;
+    }
+    #parttwo{
+        height: 370px;
+    }
+    #partfour{
+        width: 438px;
+        height: 547px;
+        margin-top: -42px;
+    }
+    #partone h1{
+        font-size: 37px;
+    }
+    #partone p{
+        font-size: 15px;
+    }
+    #abcd{
+        height: 399px;
+        width: 315px;
+        margin-top: 222px;
+    }
+    #header h1{
+        font-size: 36px;
+    }
+    #imagea img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imageb img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imagec img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imaged img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imagee img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imagef img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #text{
+        margin-top: 37px;
+        padding-top: 23px;
+        padding-bottom: 0px;
+    }
+    #text p{
+        font-size: 10px;
+    }
+    #imga img{
+        width: 240px;
+    }
+    #imgb img{
+        width: 240px;
+    }
+    #imgc img{
+        width: 240px;
+    }
+    #textone span{
+        font-size: 15px;
+    }
+    #textone p{
+        font-size: 11px;
+    }
+    #picture img{
+    width: 267px;
+    }
+    #paragraph span{
+        font-size: 31px;
+    }
+    #paragraph p{
+        font-size: 11px;
+        margin-top: 24px;
+    }
+    #footerlogo img{
+        padding-top: 10px;
+        padding-left: 271px;
+        width: 448px;
+        height: 60px;
+    }
+    #footer ul{
+        padding-left: 192px;
+    }
+    #footer ul li{
+        padding-left: 0px;
+        font-size: 9px;
+    }
+
+
+    @media screen and (width:768px){
+    #logo{
+        padding-right: 20px;
+    }
+    #logo img{
+        width: 75px;
+        height: 52px;
+        margin-left: 60px;
+        
+    }
+    #navbar ul{
+        display: contents;
+
+    }
+    #navbar ul li{
+        display: inline-block;
+        margin-right: 6px;
+        font-size: 13px;
+        padding-right: 2px;
+    }
+    #left img{
+        width: 349px;
+        height: 339px;
+    }
+    #right p span{
+        font-size: 31px;
+    }
+    #right p{
+        font-size: 13px;
+    }
+    #home{
+        height: 589px;
+    }
+    #aboutleft img{
+        width: 324px;
+        height: 381px;
+        margin-left: 60px;
+    }
+    #aboutright h1{
+        font-size: 38px;
+    }
+    #aboutright p{
+        font-size: 13px;
+    }
+    #parttwo{
+        height: 370px;
+    }
+    #partfour{
+        width: 438px;
+        height: 547px;
+        margin-top: -42px;
+    }
+    #partone h1{
+        font-size: 37px;
+    }
+    #partone p{
+        font-size: 15px;
+    }
+    #abcd{
+        height: 399px;
+        width: 315px;
+        margin-top: 222px;
+    }
+    #header h1{
+        font-size: 36px;
+    }
+    #imagea img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imageb img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imagec img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imaged img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imagee img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #imagef img{
+        width: 233px;
+        padding-left: 0px;
+        height: 314px;
+    }
+    #text{
+        margin-top: 37px;
+        padding-top: 23px;
+        padding-bottom: 0px;
+    }
+    #text p{
+        font-size: 10px;
+    }
+    #imga img{
+        width: 240px;
+    }
+    #imgb img{
+        width: 240px;
+    }
+    #imgc img{
+        width: 240px;
+    }
+    #textone span{
+        font-size: 15px;
+    }
+    #textone p{
+        font-size: 11px;
+    }
+    #picture img{
+        width: 267px;
+    }
+    #paragraph span{
+        font-size: 31px;
+    }
+    #paragraph p{
+        font-size: 11px;
+        margin-top: 24px;
+    }
+    #footerlogo img{
+        padding-top: 10px;
+        padding-left: 271px;
+        width: 448px;
+        height: 60px;
+    }
+    #footer ul{
+        padding-left: 192px;
+    }
+    #footer ul li{
+        padding-left: 0px;
+        font-size: 9px;
+    }
+
+}
